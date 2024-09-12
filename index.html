@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Seek</title>
+    <link rel="shortcut icon" href="transparent.png" type="image/x-icon">
+    <script defer src="player.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="songs.js" defer></script>
+    <script src="playlist.js" defer></script>
+    <!-- <script src="youtube.js" defer></script>  -->
+    <!-- <script src="https://www.youtube.com/iframe_api"></script> -->
+    <link rel="stylesheet" href="responsive.css">
+    <script src="queue.js" defer></script>
+
+</head>
+<body id="main">
+
+    <button class="modebtn" id="dark" onclick="darkmode()">dark mode</button>
+    <button class="modebtn" id="light" onclick="lightmode()">Light mode</button>
+    <button class="modebtn" id="light" onclick="picturemode()">Picture mode</button>
+    <input type="search" name="" id="devicesearch" placeholder="Search"> 
+
+    <div class="body" id="body">
+
+        <div class="player" id="player">
+
+
+            <div class="songdetplay">
+                <div class="songimgplay"> <img src="" alt="" id="songimgplay"></div>
+                <div class="artynom">
+                    <div class="nameplaydiv"><h1 id="nameplay" ></h1></div>
+                    <div class="artplaydiv"><h3 id="artplay"></h3></div>
+
+                    
+                    
+                </div>
+            </div>
+
+
+            <div class="controlplay">
+
+
+                <audio id="myAudio" class="playsong" autoplay>
+                    <source src="" type="audio/mp3">
+                </audio>
+
+
+
+                  <div id="controls-bar" >
+                    
+                    <div class="playback">
+                        <button id="repeat" class="control-button" onclick="toggleAudioLoop()"><img src="icons/shuffle-solid.svg" alt="" height="30px"></button>
+                    <button id="playPauseBtn" class="control-button"><img src="icons/pause-solid.svg" alt="" height="30px"></button>
+                    <button id="nextBtn" class="control-button" onclick="random()"><img src="icons/forward-solid.svg" alt="" height="30px"></button>
+                    </div>
+                  
+                    
+                    <div id="volume-container">
+                        <span id="volume-icon"><img src="icons/volume-high-solid.svg" alt="" height="20px"></span>
+                        <input type="range" id="volume-slider" min="0" max="1" step="0.1" value="1">
+                      </div>
+                  </div>
+                  <div id="progress-bar">
+                    
+                    <p id="playprecent">0:00 / 0:00</p>
+                    <div id="current-progress"></div>
+                    <div id="hover-ball"></div>
+                  </div>
+                </div> 
+
+            </div>
+        
+
+           
+        <div class="left">
+                
+            <div id="content">
+
+            </div>
+            <div id="queue">
+
+            </div>
+        
+
+            </div>
+                
+
+        </div>
+
+            
+            
+
+    </div>
+    
+
+
+</body>
+</html>

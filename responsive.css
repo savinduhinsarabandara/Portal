@@ -1,0 +1,104 @@
+@media (max-width: 576px) {
+
+    .language   {
+        display: none;
+    }
+    .songname{
+        margin-left: 30px;
+    }
+    .songart{
+        margin-left: 30px;
+    }
+    .player{
+        width: 576px;
+    }
+    #songimgplay{
+        height: 75px;
+    }
+    .artynom{
+        display: flex;
+       width: 300px;
+       font-size: 15px;
+    }
+    #progress-bar{
+        margin-left: -50px;
+    }
+    .duration{
+        display: block;
+    }
+    .songart{
+        margin-left: 25px;
+    }
+    .songname{
+        margin-left: 50px;
+    }
+    .player{
+        width: 100%;
+        margin-left: -25px;
+        border-radius: 0px;
+        height: max-content;
+        margin-top: -10px;
+    }
+    #controls-bar{
+        margin-left: -190%;
+        display: flex;
+        width: 100%;
+        margin-top: 40px;
+    
+    }
+    #volume-container{
+        margin-left: 40px;
+    }
+    .playback{
+        width: 100%;
+        display: flex;
+    }
+    #randomBtn{
+        display: none;
+    }
+
+    #playPauseBtn{
+        margin-left: 20px;
+
+    }
+    #nextBtn{
+        margin-left: 15px;
+    }
+    .nameplaydiv{
+        width: 500px;
+    }
+    .artplaydiv{
+        width: 100px;
+    }
+    .artplay{
+        font: 10px;
+    }
+    .left{
+        height: 60vh;
+    }
+    #devicesearch{
+       display: block;
+       margin-left: 10px;
+       width: 100%;
+       text-align: center;
+       z-index: 3;
+       position: absolute;
+       margin-top: 175px;
+    }
+    #content{
+        margin-top: 160px;
+        height: 65vh;
+    }
+    .modebtn{
+        height: 50px;
+      }
+      .blahblah{
+        color: rgb(245, 245, 245);
+      }
+      #nameplay{
+        width: 200px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+} 

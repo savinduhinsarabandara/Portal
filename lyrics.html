@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tune Vista</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="lyricscontrol.js" defer></script>
+</head>
+<body>
+    <div class="nav" style="margin-top: -90px;">
+        <div class="branddet">
+            <div>
+                <img src="tune-vista-logo-zip-file/logo.png" alt="" class="brandimg" height="90px" style="margin-top: 5px;">
+            </div>
+            <div class="nomyslogan">
+                <h1 class="brandname" style="color: white;  font-size: 35px;font-family: Arial, Helvetica, sans-serif;">
+                    Tune Vista
+                </h1>
+                <h3 class="brandslogan" style="color: white;margin-top: -20px;font-size: 15px;font-family: Arial, Helvetica, sans-serif;">
+                    The Best Way To Listen To Song
+                </h3>
+            </div>
+
+        </div>
+            <div class="aboutandcontactus">                
+            <button class="navBtn"><a href="index.html" style="padding-left: 120px;padding-right: 120px;"><-- Goback</a></button> 
+        </div>
+    </div>
+
+
+    <div class="lyricsContent">
+        <div class="lyricsvideo">
+        <video class="lyrics lyricsvid" id="lyrics" src="video/lyrics/mocking_bird.mp4" autoplay></video>
+        <hr>
+        <div class="songdet" style="font-family: Arial, Helvetica, sans-serif;">
+            <div class="songdetblock"><h1>Name : </h1><h1 id="songname"></h1></div>
+            <div class="songdetblock"><h1>Artist : </h1><h1 id="songartist"></h1></div>
+            <!-- <div class="songdetblock"><h1>duration: </h1><h1 id="duration"></h1></div> -->
+            <img src="" alt="" id="img" height="250px">
+        </div>
+        </div>
+        <div class="right">
+            <div class="upper">
+                <div id="lyricscontrol-bar">
+                    <div class="lyrics-playback">
+                        <!-- <button id="lyrics-repeat">repeat</button>
+                        <button id="lyrics-playPauseBtn">play</button>
+                        <button id="lyrics-nextBtn">next</button> -->
+                        <button id="lyrics-repeat" class="control-button" onclick="toggleAudioLoop()" style="margin-top: 20px;"><img src="icons/shuffle-solid.svg" alt="" height="30px"></button>
+                        <button id="lyrics-playPauseBtn" class="control-button"><img src="icons/pause-solid.svg" alt="" height="30px"></button>
+                        <button id="lyrics-nextBtn" class="control-button" onclick="random()"><img src="icons/forward-solid.svg" alt="" height="30px"></button>
+                    </div>
+  
+                    <div id="volume-container" style="position: absolute;margin-left: 897px;margin-top: 30px;">
+                        <span id="volume-icon"><img src="icons/volume-high-solid.svg" alt="" height="20px"></span>
+                        <input type="range" id="volume-slider" min="0" max="1" step="0.1" value="1">
+                      </div>
+
+                    <div id="progress-bar" style="width: 88%; margin-left: 110px;color: white;margin-top: 75px;">
+                    
+                        <p id="playprecent">0:00 / 0:00</p>
+                        <div id="current-progress"></div>
+                        <div id="hover-ball"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="lower">
+                <div class="songs" id="songs">
+                    <div class="songLists">
+                        <div class="songimg"></div>
+                        <div class="songname"><p>Name</p></div>
+                        <div class="songart"><p>Artist</p></div>
+                        <div class="duration"><p>Duration</p></div>
+                        
+                    </div>
+                    <hr>
+                    <input type="search" name="" id="lyricssearch" placeholder="Search">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
