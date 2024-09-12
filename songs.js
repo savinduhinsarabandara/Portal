@@ -1,6 +1,6 @@
 const songs = [
   
-  after_dark=['After Dark','Mr.Kitty','https://drive.google.com/file/d/1RTLv6yuaF8bRDHh9SVtf2w1p24OGU2T1/view?usp=sharing','https://drive.google.com/file/d/1xw5Y6DXmzyLosD1NsABfFaSDE6so3HCt/view?usp=sharing4.14,'after_dark','en'],
+  after_dark=['After Dark','Mr.Kitty','imgs/afterdark.png','imgs/afterdark.mp3','after_dark','en'],
   hours_10000=['10000 Hours','Justin Bieber','imgs/10000hours.png','musics/10000 Hours.mp3',2.55,'hours_10000','en'],
   all_falls_down=['All Falls Down','Alan Walker','imgs/allfallsdown.jpg','musics/All Falls Down.mp3',3.19,'all_falls_down','en'],
   all_i_want_is_you=['All I want is you','Rebzyyx','imgs/alliwantisyou.png','musics/alliwantisyou.mp3',2.31,'all_i_want_is_you','en'],
