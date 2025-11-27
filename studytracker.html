@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product | Portal Incorporation</title>
+  <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      background: #f4f7fb;
+      color: #333;
+    }
+
+    /* Navbar */
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 5%;
+      background: #fff;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo img {
+      width: 40px;
+      margin-right: 10px;
+    }
+
+    .logo h1 {
+      font-size: 1.2rem;
+      color: #333;
+    }
+
+    .links a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #555;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    .links a:hover {
+      color: #0077ff;
+    }
+
+    /* Product Section */
+    .product-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 2rem;
+      padding: 3rem 5%;
+      flex-wrap: wrap;
+    }
+
+    .product-image {
+      flex: 1;
+      min-width: 280px;
+    }
+
+    .product-image img {
+      width: 100%;
+      border-radius: 1rem;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    }
+
+    .product-details {
+      flex: 1.2;
+      min-width: 300px;
+    }
+
+    .product-details h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #0077ff;
+    }
+
+    .product-details p {
+      margin-bottom: 1rem;
+      font-size: 1rem;
+      color: #444;
+    }
+
+    .price {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin: 1rem 0;
+      color: #28a745;
+    }
+
+    .buy-btn {
+      background: #0077ff;
+      color: #fff;
+      border: none;
+      padding: 0.9rem 1.8rem;
+      font-size: 1rem;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .buy-btn:hover {
+      background: #005fcc;
+    }
+
+    /* Specs */
+    .specs {
+      margin-top: 2rem;
+    }
+
+    .specs h3 {
+      margin-bottom: 1rem;
+      font-size: 1.4rem;
+    }
+
+    .specs ul {
+      list-style: none;
+    }
+
+    .specs ul li {
+      background: #fff;
+      margin-bottom: 0.6rem;
+      padding: 0.8rem;
+      border-radius: 0.6rem;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+
+    /* Footer */
+    footer {
+      background: #222;
+      color: #ccc;
+      text-align: center;
+      padding: 1.5rem 5%;
+      margin-top: 3rem;
+    }
+
+    footer p {
+      margin: 0.5rem 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <div class="logo">
+      <img src="logo.png" alt="Logo">
+      <h1>Portal Incorporation</h1>
+    </div>
+    <div class="links">
+      <a href="index.html">Home</a>
+      <a href="product.html">Products</a>
+      <a href="about.html">About & Contact</a>
+    </div>
+  </div>
+
+  <div class="product-container">
+    <div class="product-image">
+      <img src="studytracker/studytracker.png" alt="Product Image">
+    </div>
+
+    <div class="product-details">
+      <h2>Study Tracker</h2>
+      <p>This is the ultimate solution for your needs. With cutting-edge technology, sleek design, and powerful features, this product stands out as a market leader.</p>
+      
+      <div class="price">$0</div>
+      <button class="buy-btn"><a href="studytracker/" style="color: white;text-decoration: none;">Try Now</a></button>
+
+      <div class="specs">
+        <h3>Specifications:</h3>
+        <ul>
+          <li>⚡ Accurate</li>
+          <li>🎨 Analytics</li>
+          <li>🔋 Reliable</li>
+          <li>🌍 User Friendly</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Portal Incorporation. All rights reserved.</p>
+    <p>Contact: info@portalinc.com</p>
+  </footer>
+</body>
+</html>
